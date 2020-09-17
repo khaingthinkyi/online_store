@@ -1,0 +1,138 @@
+#banner{
+	/*background-color: pink;*/
+	background: linear-gradient(0deg,rgba(6,12,34,0.8),rgba(6,12,34,0.8)),
+	url(images/watch8banner.jpeg) no-repeat;
+	width:100%;
+	height: 100vh; /* (vh=view height) height that user can see */
+	position: relative;
+	background-position: center center;
+}
+nav{
+	background: linear-gradient(0deg,rgba(6,12,34,0.8),rgba(6,12,34,0.8));
+}
+hr{
+    border: 2px solid #d35100 !important;
+    width: 10%;
+    
+}
+div.carousel-item{
+	position: relative;
+}
+div.carousel-item img{
+	height: 900px;
+}
+div.card{
+	position: relative;
+}
+div.card img{
+	width: 100%;
+	height: 200px;
+}
+@font-face{
+	font-family: 'aa';
+	src:url(Fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'bb';
+	src:url(Fonts/static/Lemonada-Regular.ttf);
+}
+div.detail{
+	position: absolute;
+	background-color: rgba(6,12,34,0.8);
+	bottom: 0;
+	width:100%;
+}
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%
+	width:100%;
+	position: absolute;
+}
+#contactBtn{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #f82249;
+    background-color: #f82249;
+    border-radius: 50px;
+}
+
+#contactBtn:hover{
+	background-color: transparent;
+    border: 1px solid #f82249;
+    color: #f82249;
+}
+div #pre a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 20px;
+   font-size: 35px;
+   width: 40px;
+   text-align: center;
+}
+.back:hover {
+   background-color: #ddd;
+   color: black;
+}
+.next:hover {
+   background-color: rgb(121, 37, 133);
+   color: white;
+}
+.back {
+   border-radius: 50%;
+   background-color: #acacac;
+   color: black;
+}
+.next {
+   border-radius: 50%;
+   background-color: rgb(68, 30, 112);
+   color: white;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+#count .p1[data-count]:after{
+	position:absolute;
+	right: 10%;
+	top: 8%;
+	content: attr(data-count);
+	font-size:20%;
+	padding: 2em;
+	border-radius: 50%;
+	line-height: 1em;
+	color: white;
+	background: rgba(255,0,0,.85);
+	text-align: center;
+	min-width: 1em;
+	font-weight: bold;
+}
+@media only screen and (min-width: 768px){
+	#count{
+		font-size: 1.2rem;
+		margin-top: -0.5rem;
+	}
+}
+.product p a{
+	display: block;
+	text-decoration: none;
+	color: #151515;
+	transition: .5s;
+}
+.product p a:hover{
+	color:#d35100;
+}
+/*card*/
+

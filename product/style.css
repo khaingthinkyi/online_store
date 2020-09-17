@@ -1,0 +1,98 @@
+#banner{
+	/*background-color: pink;*/
+	background: linear-gradient(0deg,rgba(6,12,34,0.8),rgba(6,12,34,0.8)),
+	url(images/banner2.jpg) no-repeat;
+	width:100%;
+	height: 100vh; /* (vh=view height) height that user can see */
+	position: relative;
+	background-position: center center;
+}
+nav{
+	background: linear-gradient(0deg,rgba(6,12,34,0.8),rgba(6,12,34,0.8));
+}
+hr{
+    border: 2px solid #f82249 !important;
+    width: 10%;
+    
+}
+div.carousel-item{
+	position: relative;
+}
+div.carousel-item img{
+	height: 900px;
+	object-fit: cover;
+}
+div.card{
+	position: relative;
+}
+div.card img{
+	width: 100%;
+	height: 400px;
+	
+}
+@font-face{
+	font-family: 'aa';
+	src:url(Fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'bb';
+	src:url(Fonts/static/Lemonada-Regular.ttf);
+}
+p{
+	font-family: aa;
+}
+
+h2{
+	font-family: bb;
+}
+div.detail{
+	position: absolute;
+	background-color: rgba(6,12,34,0.8);
+	bottom: 0;
+	width:100%;
+}
+#button{
+	margin-left: 50%;
+	position: relative;
+
+}
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 50%;
+	position: relative;
+	height: 0;
+}
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	height: 100%
+	width:100%;
+	position: absolute;
+}
+ div #pre a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 20px;
+   font-size: 35px;
+   width: 40px;
+   text-align: center;
+}
+.back:hover {
+   background-color: #ddd;
+   color: black;
+}
+.next:hover {
+   background-color: rgb(121, 37, 133);
+   color: white;
+}
+.back {
+   border-radius: 50%;
+   background-color: #acacac;
+   color: black;
+}
+.next {
+   border-radius: 50%;
+   background-color: rgb(68, 30, 112);
+   color: white;
+}
